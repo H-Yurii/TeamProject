@@ -207,7 +207,7 @@ body:hover #E_box {
     margin: 0 auto;
 }
 
-.card {
+.E_card {
     width: 1500px;
     display: flex;
     justify-content: space-between;
