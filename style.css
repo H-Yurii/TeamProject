@@ -221,7 +221,7 @@ body:hover #E_box {
     height: 480px;
     background-color: #1f1e1e;
     padding: 15px;
-    box-shadow:0 20px 10px #00000089;
+    box-shadow: 0 0 20px #00000089;
 }
 
 .black__img {
@@ -587,7 +587,7 @@ body:hover #E_box {
 }
 
 .y-inside__img:nth-child(1):hover {
-    filter: drop-shadow(0 0 10px #c337df);
+    filter: drop-shadow(0 0px 10px #c337df);
 }
 
 .y-inside__img:nth-child(2) {
