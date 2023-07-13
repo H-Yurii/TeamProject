@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     outline: 0;
     text-decoration: none;
     box-sizing: border-box;
@@ -277,19 +278,67 @@ body:hover #E_box {
     justify-content: space-between;
     background-color: #1f1e1e;
     padding: 10px;
+    position: relative;
+}
+
+.y-img__block::before {
+    position: absolute;
+    content: '';
+    width: 170px;
+    height: 170px;
+    background-image: url(./Picture/bonfire-2.png);
+    background-size: cover;
+    margin-top: 370px;
+    margin-left: 300px;
+}
+
+.y-img__block::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-image: url(./Picture/bonfire-2.png);
+    background-size: cover;
+    right: -800px;
+    margin-top: 100px;
+    transform: rotate(26deg);
 }
 
 .y-block__img-1 {
-    width: 300px;
+    width: 320px;
+    height: 180px;
+    background-image: url(./Picture/OIP.jpg);
+    background-size: cover;
     border-radius: 20px;
-    filter: drop-shadow(5px 7px 5px #1d1d1d);
+    box-shadow: 0 0 20px #000;
     cursor: pointer;
-    transition: 0.5s;
+    position: relative;
 }
 
-.y-block__img-1:hover {
+.y-box__inside {
+    position: absolute;
+    content: '';
     width: 320px;
-    filter: drop-shadow(5px 12px 5px #1d1d1d);
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#515be6b3, #dee26baf);
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.y-img__block:hover .y-box__inside {
+    margin-top: 0;
+    opacity: 1;
+    margin-right: 0;
+}
+
+.y-inside__img {
+    cursor: pointer;
 }
 
 .y-block__title {
@@ -316,19 +365,54 @@ body:hover #E_box {
     justify-content: space-between;
     background-color: #1f1e1e;
     padding: 10px;
+    position: relative;
+}
+
+.y-img__block-2::before {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 200px;
+    background-image: url(./Picture/pngwing.com\ \(9\).png);
+    background-size: cover;
+    top: -180px;
+    left: -70px;
+    transform: rotate(47deg)
 }
 
 .y-block__img-2 {
-    width: 300px;
-    border-radius: 20px;
-    filter: drop-shadow(5px 7px 5px #1d1d1d);
+    width: 320px;
+    height: 180px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.7s;
+    position: relative;
+    background-image: url(./Picture/R.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    background-position: 70% 0;
+    box-shadow: 0 0 20px #000;
+} 
+
+.y-box__inside-2 {
+    position: absolute;
+    content: '';
+    width: 320px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#515be6b3, #ef784caf);
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+    transition: 0.3s;
+    opacity: 0;
 }
 
-.y-block__img-2:hover {
-    width: 320px;
-    filter: drop-shadow(5px 12px 5px #1d1d1d);
+.y-img__block-2:hover .y-box__inside-2 {
+    opacity: 1;
+    margin-top: 0;
+    margin-right: 0;
 }
 
 .y-block-2__title {
@@ -358,16 +442,38 @@ body:hover #E_box {
 }
 
 .y-block__img-3 {
-    width:300px;
-    border-radius: 20px;
-    filter: drop-shadow(5px 7px 5px #1d1d1d);
+    width: 320px;
+    height: 180px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.7s;
+    position: relative;
+    background-image: url(./Picture/OIP\ \(1\).jpg);
+    background-size: cover;
+    border-radius: 20px;
+    background-position: 70% 0;
+    box-shadow: 0 0 20px #000;
 }
 
-.y-block__img-3:hover {
+.y-box__inside-3 {
+    position: absolute;
+    content: '';
     width: 320px;
-    filter: drop-shadow(5px 12px 5px #1d1d1d);
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#e7e3659f, #db56269e);
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.y-img__block-3:hover .y-box__inside-3 {
+    opacity: 1;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 .y-block-3__title {
@@ -397,16 +503,83 @@ body:hover #E_box {
 }
 
 .y-block__img-4 {
-    width: 300px;
+    width: 320px;
+    height: 180px;
+    background-image: url(./Picture/OIP\ \(2\).jpg);
+    background-size: cover;
     border-radius: 20px;
-    filter: drop-shadow(5px 7px 5px #1d1d1d);
+    box-shadow: 0 0 20px #000;
     cursor: pointer;
-    transition: 0.5s;
+    position: relative;
 }
 
-.y-block__img-4:hover {
+.y-block__img-4::before {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 200px;
+    background-image: url(./Picture/pngwing.com\ \(9\).png);
+    background-size: cover;
+    margin-top: 330px;
+    transform: rotate(26deg);
+}
+
+.y-block__img-4::after {
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 300px;
+    background-image: url(./Picture/spear-2.png);
+    background-size: cover;
+    transform: rotate(45deg);
+    top: -230px;
+    left: -140px;
+}
+
+.y-box__inside-4 {
+    position: absolute;
+    content: '';
     width: 320px;
-    filter: drop-shadow(5px 12px 5px #1d1d1d); /*#2f2f2f*/
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#d8368db3, #4a6dc6af);
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 50px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.y-inside__img:nth-child(1) {
+    transition: 0.3s;
+}
+
+.y-inside__img:nth-child(1):hover {
+    filter: drop-shadow(0 0 10px #c337df);
+}
+
+.y-inside__img:nth-child(2) {
+    transition: 0.3s;
+}
+
+.y-inside__img:nth-child(2):hover {
+    filter: drop-shadow(0 0 10px #1d3ee1);
+}
+
+.y-inside__img:nth-child(3) {
+    transition: 0.3s;
+}
+
+.y-inside__img:nth-child(3):hover {
+    filter: drop-shadow(0 0 10px #4a75ca);
+}
+
+.y-img__block-4:hover .y-box__inside-4 {
+    opacity: 1;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 .y-block-4__title {
@@ -468,6 +641,7 @@ body:hover #E_box {
     border-radius: 20px;
     transition: 0.5s;
     cursor: pointer;
+    position: relative;
 }
 
 .y-card__img:hover {
@@ -524,6 +698,29 @@ body:hover #E_box {
 .y-block__card:nth-child(3) {
     margin: 0 auto;
     margin-top: 25px;
+    position: relative;
+}
+
+.y-block__card:nth-child(3)::before {
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 300px;
+    background-image: url(./Picture/bonfire-2.png);
+    background-size: cover;
+    left: -400px;
+    top: 40px;
+}
+
+.y-block__card:nth-child(3)::after {
+    position: absolute;
+    content: '';
+    width: 260px;
+    height: 390px;
+    background-image: url(./Picture/bow-2.png);
+    background-size: cover;
+    right: -400px;
+    top: 10px;
 }
 
 .y-card__img-1 {
@@ -568,4 +765,94 @@ body:hover #E_box {
     font-family: 'Cormorant Garamond', serif;
     font-size: 23px;
     margin-top: 5px;
+}
+
+.main_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards1{
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.cards2{
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.card {
+    width: 370px;
+    height: 500px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 5px solid #ffffff;
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-img:first-child{
+    background-size: cover;
+    width: 180%;
+    left: 0px; 
+    transform: translateX(-22%);
+}
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4729;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.70s;
+}
+
+.card:hover .card-body{
+    right: 0;
+}
+
+.card-btn{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.613);
+    padding: 10px 20px;
+    width: 120px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.card-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+.card-text {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-info {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
 }
