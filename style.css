@@ -221,7 +221,7 @@ body:hover #E_box {
     height: 480px;
     background-color: #1f1e1e;
     padding: 15px;
-    box-shadow: 0 0 20px #00000089;
+    box-shadow: 0 0 30px #00000089;
 }
 
 .black__img {
@@ -251,6 +251,11 @@ body:hover #E_box {
 .E_video {
     border-radius: 15px;
     margin-right: 20px;
+    transition: 0.5s;
+}
+
+.E_video:hover {
+    box-shadow: 0 0 20px #000;
 }
 
 .E_h1 {
