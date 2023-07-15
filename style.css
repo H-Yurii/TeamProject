@@ -203,7 +203,7 @@ body:hover #E_box {
 .card__black {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 410px;
     height: 480px;
