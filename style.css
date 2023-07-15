@@ -191,19 +191,8 @@ body:hover #E_box {
 
 .main {
     margin: 0 auto;
-}
-
-
-.main__box {
     width: 1500px;
-    margin: 0 auto;
-}
-
-.card {
-    width: 1500px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+    border: 1px solid #1bcb21;
 }
 
 .E_card {
