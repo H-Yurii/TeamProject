@@ -803,12 +803,7 @@ body:hover #E_box {
     margin-top: 5px;
 }
 
-#s-history {
-    width: 1500px;
-    margin: 0 auto;
-}
-
-.s-history__title {
+#s-history__title {
     color: #1f1e1e;
     font-family: 'Cormorant Garamond', serif;
     font-size: 37px;
@@ -816,23 +811,53 @@ body:hover #E_box {
     margin-bottom: 15px;
 }
 
-.s-history__box {
-    background-color: #1f1e1e;
-    padding: 20px;
+.s-history {
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.s-box__title {
-    color: #ffffff;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 27px;
-    text-align: center;
+.s-box-1 {
+    width: 540px;
+}
+
+.s-history__box {
+    width: 500px;
+    padding: 20px;
+    position: relative;
+}
+
+.s-history__box:nth-child(1)::before {
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 300px;
+    background-image: url(./Picture/spear-2.png);
+    background-size: cover;
+    right: -380px;
+    top: 180px;
+    transform: rotate(-10deg);
+}
+
+.s-history__box:nth-child(1)::after {
+    position: absolute;
+    content: '';
+    width: 280px;
+    height: 280px;
+    background-image: url(./Picture/sword.png);
+    background-size: cover;
+    right: -430px;
+    top: 200px;
+    transform: rotate(100deg);
 }
 
 .s-box__text {
-    color: #fff;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: 600;
     text-align: center;
+    color: #1f1e1e;
 }
 
 .s-image-wrapper img {
@@ -957,6 +982,7 @@ body:hover #E_box {
     overflow: hidden;
     border: 5px solid #ffffff;
     position: relative;
+    cursor: pointer;
 }
 
 .card-img {
