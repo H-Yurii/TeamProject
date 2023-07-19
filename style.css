@@ -831,25 +831,27 @@ body:hover #E_box {
 .s-history__box:nth-child(1)::before {
     position: absolute;
     content: '';
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     background-image: url(./Picture/spear-2.png);
     background-size: cover;
     right: -380px;
-    top: 180px;
+    top: 160px;
     transform: rotate(-10deg);
+    filter: drop-shadow(30px 15px 10px #000);
 }
 
 .s-history__box:nth-child(1)::after {
     position: absolute;
     content: '';
-    width: 280px;
-    height: 280px;
+    width: 300px;
+    height: 300px;
     background-image: url(./Picture/sword.png);
     background-size: cover;
     right: -430px;
-    top: 200px;
+    top: 180px;
     transform: rotate(100deg);
+    filter: drop-shadow(30px 15px 10px #000);
 }
 
 .s-box__text {
