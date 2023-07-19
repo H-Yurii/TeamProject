@@ -963,6 +963,15 @@ body:hover #E_box {
     flex-direction: column;
 }
 
+.I_cards_box{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #000000d5;
+    padding: 50px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
 .cards1{
     display: flex;
     width: 1000px;
@@ -976,6 +985,8 @@ body:hover #E_box {
 }
 
 .card {
+    margin-top: 80px;
+    margin-bottom: 20px;
     width: 370px;
     height: 500px;
     border-radius: 25px;
@@ -1047,6 +1058,37 @@ body:hover #E_box {
     line-height: 25px;
     margin: 40px 0;
     font-weight: 400;
+}
+
+.I_game_chit {
+    background-color: rgb(64, 64, 64);
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 135px;
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
+}
+.I_game_chit_min {
+    padding: 20px;
+    width: 500px;
+    border: 3px solid #ff0000cd;
+    border-radius: 15px ;
+}
+.I_game_chit_max {
+    padding: 20px;
+    width: 500px;
+    border: 3px solid #ff0000;
+    border-radius: 15px ;
+}
+
+.I_vimogi{
+    background-color: rgb(64, 64, 64);
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .y-card__line {}
