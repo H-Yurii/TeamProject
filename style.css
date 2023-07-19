@@ -969,7 +969,7 @@ body:hover #E_box {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background-color: #000000d5;
+    background-color: #1f1e1e;
     padding: 50px;
     font-family: 'Cormorant Garamond', serif;
 }
@@ -1063,7 +1063,7 @@ body:hover #E_box {
 }
 
 .I_game_chit {
-    background-color: rgb(64, 64, 64);
+    background-color: #1f1e1e;
     height: 500px;
     display: flex;
     justify-content: space-between;
@@ -1085,7 +1085,7 @@ body:hover #E_box {
 }
 
 .I_vimogi{
-    background-color: rgb(64, 64, 64);
+    background-color: #1f1e1e;
     display: flex;
     justify-content: center;
     color: white;
