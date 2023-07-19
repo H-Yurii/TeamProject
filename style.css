@@ -1074,6 +1074,7 @@ body:hover #E_box {
     width: 500px;
     border-radius: 15px ;
     margin-left: 300px;
+    margin-bottom: 20px;
 }
 
 .I_game_chit_min p {
@@ -1088,6 +1089,7 @@ body:hover #E_box {
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .I_game_chit_max {
@@ -1109,6 +1111,7 @@ body:hover #E_box {
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .I_vimogi{
