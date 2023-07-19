@@ -960,7 +960,7 @@ body:hover #E_box {
     font-family: 'Cormorant Garamond', serif;
 }
 
-#main_card {
+#main__card {
     display: flex;
     flex-direction: column;
 }
@@ -1064,24 +1064,51 @@ body:hover #E_box {
 
 .I_game_chit {
     background-color: #1f1e1e;
-    height: 500px;
     display: flex;
     justify-content: space-between;
-    padding: 135px;
     color: #ffffff;
     font-family: 'Cormorant Garamond', serif;
 }
 .I_game_chit_min {
     padding: 20px;
     width: 500px;
-    border: 3px solid #ff0000cd;
     border-radius: 15px ;
+    margin-left: 300px;
 }
+
+.I_game_chit_min p {
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.I_game_chit_min h2 {
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
 .I_game_chit_max {
     padding: 20px;
     width: 500px;
-    border: 3px solid #ff0000;
-    border-radius: 15px ;
+    border-radius: 15px;
+    margin-right: 300px;
+}
+
+.I_game_chit_max p {
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.I_game_chit_max h2 {
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    text-align: center;
 }
 
 .I_vimogi{
@@ -1091,6 +1118,13 @@ body:hover #E_box {
     color: white;
     padding: 10px;
     font-family: 'Cormorant Garamond', serif;
+}
+
+.I_vimogi h2 {
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 33px;
+    text-align: center;
 }
 
 .y-card__line {}
