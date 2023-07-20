@@ -19,7 +19,7 @@ body {
 #y-header {
     background-image: url(./Picture/horizon-zero-dawn-ps5-4k-bd-2560x1080.jpg);
     background-size: cover;
-    height: 961px;
+    height: 100vh;
 }
 
 .y-header__body {
